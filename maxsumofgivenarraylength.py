@@ -9,6 +9,8 @@ def maxSumSubArray (num, k):
             maxsum = max(maxsum, currentsum)
             currentsum -= num[i - (k - 1)]
 
+    print ("I am going great")
+
     return maxsum
 
 
